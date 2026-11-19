@@ -1,0 +1,48 @@
+100%
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClubSphere — Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="register-card">
+    <img class="logo" src="images/aesc-logo.png" alt="AESC logo">
+    <h1>Register</h1>
+
+    <form class="register-form" action="clubsphere-login.html" method="get">
+      <div class="field">
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" autocomplete="username" required>
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="new-password" required>
+      </div>
+
+      <div class="field">
+        <label for="confirm-password">Confirm Password</label>
+        <input id="confirm-password" name="confirm-password" type="password" autocomplete="new-password" required>
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required>
+      </div>
+
+      <label class="terms">
+        <input type="checkbox" name="terms" required>
+        <span>I agree to terms and conditions of the club</span>
+      </label>
+
+      <button type="submit">Register</button>
+      <a class="account-link" href="clubsphere-login.html">Already have an account? Log in</a>
+    </form>
+  </main>
+
+  <footer class="brand-name">ClubSphere</footer>
+</body>
+</html
